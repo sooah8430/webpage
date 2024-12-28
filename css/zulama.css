@@ -44,14 +44,14 @@ html, body {
 
 body {
     font-family: 'GmarketSansMedium';
-    background-color:rgb(96, 252, 255);
-    color:#000000;
+    background-color: #B4CF66;
+    color: #FFF;
 }
 
+/* 메인 콘텐츠 */
 #contents {
     display: flex;
     justify-content: center;
-    
 }
 
 .wrapper {
@@ -62,11 +62,11 @@ body {
     margin-top: 50px;
 }
 
+/* 제목 이미지 */
 .title {
-    max-width: 100;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     margin-bottom: 50px;
 }
 
@@ -86,22 +86,12 @@ body {
     height: auto;
 }
 
-.title .zotopia2 {
-    width: 300px;
-    height: 300px;
-}
-
-.title .zotopia {
-    width: 300px;
-    height: 300px;
-}
-
+/* 인트로 문구 설명 */
 .intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
-
 }
 
 .intro .intro_saying {
@@ -113,9 +103,9 @@ body {
 
 .intro .explain {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 80px;  
+    margin-bottom: 80px;
 }
 
 .intro .quotes {
@@ -127,12 +117,11 @@ body {
     position: absolute;
     font-size: 17px;
     line-height: 1.7;
-    padding-left: 90px;
 }
 
 .intro .explain span {
     font-family: 'GmarketSansBold';
-    font-size: 19px;
+    font-size: 20px;
 }
 
 /* 사용자 입력 */
@@ -140,7 +129,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 70px;
 }
 
@@ -154,10 +143,10 @@ body {
     padding: 15px 20px;
     margin: 0 15px;
     border: none;
-    border-radius: 50px;
+    border-radius: 10px;
     font-size: 20px;
     font-family: 'GmarketSansMedium';
-    width: 180px;
+    width: 200px;
 }
 
 .inputs input::placeholder {
@@ -171,7 +160,7 @@ button {
     font-family: 'GmarketSansBold';
     font-size: 20px;
     color: #FFEC5C;
-    background-color: #9886e9;
+    background-color: #44803F;
     border: none;
     border-radius: 30px;
     padding: 10px 40px;

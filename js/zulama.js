@@ -22,10 +22,11 @@ function calculator(){
         alert('년도가 입력되지 않았습니다.');
         yearValue.focus();
         return false;
-    } else if (yearValue_int > 2023 || yearValue_int < 0) {
-        alert('잘못된 값입니다. 0 ~ 2023 값을 입력해 주세요.');
+    } else if (yearValue_int > 2024 || yearValue_int < 1999) {
+        alert('잘못된 값입니다. 1999 ~ 2024 값을 입력해 주세요.');
         return false;
     }
+
     result.style.display = "none";
     loading.style.display = "flex";
 
@@ -47,8 +48,6 @@ function calculator(){
         else if(yearValue_int%12 == 11 ){yearResult.innerText = '양띠';}
     }, 1000);   
 }
-
-//수강신청, 은행(주식시장) : 엄청 많은사람들 단기간에몰림
 
 function openModal() {
     modal.style.display = "flex";
